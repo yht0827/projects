@@ -16,7 +16,8 @@ public class LogoutProcController extends HttpServlet {
 			throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		session.invalidate();
-		response.sendRedirect("/HRT_Proj/index.do");
+		 String path = request.getContextPath();
+		response.sendRedirect(path+"/index.do");
 }
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 			doDispacther(request, response);

@@ -18,12 +18,13 @@ public class delMemberController extends HttpServlet {
 		String mid =(String) request.getSession().getAttribute("mid");
 		MemberDAO dao = new MemberDAO();
 		System.out.println("mid : "+ mid);
+		String path = request.getContextPath();
 		
 		int cr = dao.deleteMember(mid);
 		
 		if(cr==1){
 			System.out.println("È¸¿ø Å»Åð ¼º°ø");
-			response.sendRedirect("/HRT_Proj/index.do?update=del");
+			response.sendRedirect(path+"/index.do?update=del");
 		}else{
 			System.out.println("È¸¿ø Å»Åð ½ÇÆÐ");
 		}

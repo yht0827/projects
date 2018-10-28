@@ -20,13 +20,14 @@ public class ReserveController extends HttpServlet {
 
 		HttpSession session = request.getSession();
 		String mid = (String) session.getAttribute("mid");
+		 String path = request.getContextPath();
 			if(mid == null){
-				session.setAttribute("returnURL","/HRT_Proj/ticket/reserve.do");
-				response.sendRedirect("/HRT_Proj/member/login.do");
+				session.setAttribute("returnURL",path+"/ticket/reserve.do");
+				response.sendRedirect(path+"/member/login.do");
 			}else{
 				SimpleDateFormat mSimpleDateFormat = new SimpleDateFormat ( "yyyy/MM/dd");
 				Date currentTime = new Date ();
-		  String[] weekDay = {"ì¼","ì›”", "í™”", "ìˆ˜", "ëª©", "ê¸ˆ", "í† "};     
+		  String[] weekDay = {"ÀÏ","¿ù", "È­", "¼ö", "¸ñ", "±İ", "Åä"};     
 				   Calendar cal = Calendar.getInstance(); 
 				      int num = cal.get(Calendar.DAY_OF_WEEK)-1; 
 				      String mTime = mSimpleDateFormat.format ( currentTime );

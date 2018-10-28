@@ -12,7 +12,6 @@ import com.web.util.CookieManager;
 @WebServlet("/member/login.do")
 public class LoginController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
 	
 	protected void doDispatcher(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {

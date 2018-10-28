@@ -28,6 +28,7 @@ public class UpdateMemberController extends HttpServlet {
 		String day = request.getParameter("Day");
 		String phone = request.getParameter("phone");
 		String birthday = String.format("%s-%s-%s", year, month, day);
+		 String path = request.getContextPath();
 		int age = cal.get(cal.YEAR)-Integer.parseInt(year)+1;
 		MemberDAO dao = new MemberDAO();
 		Member m = dao.getMid(mid);
@@ -44,7 +45,7 @@ public class UpdateMemberController extends HttpServlet {
 			int cr = dao.updateMember(m);
 			if(cr==1){
 				System.out.println("정보 수정 완료");
-				response.sendRedirect("/HRT_Proj/index.do?update=ok");
+				response.sendRedirect(path+"/index.do?update=ok");
 			}else{
 				System.out.println("회원정보 수정 실패");
 			}

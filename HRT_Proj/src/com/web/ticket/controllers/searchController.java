@@ -39,7 +39,6 @@ public class searchController extends HttpServlet {
 		System.out.println(date);
 		System.out.println("time : "+time);
 		SearchDAO dao = new SearchDAO();
-		String code[] = new String[2];
 		String code_start="";
 		String code_end="";
 		List<codes> cList=null;

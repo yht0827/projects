@@ -21,9 +21,10 @@ public class MypageController extends HttpServlet {
 		
 		HttpSession session = request.getSession();
 		String mid = (String) session.getAttribute("mid");
+		 String path = request.getContextPath();
 			if(mid == null){
-				session.setAttribute("returnURL","/HRT_Proj/member/Mypage.do");
-				response.sendRedirect("/HRT_Proj/member/login.do");
+				session.setAttribute("returnURL",path+"/member/Mypage.do");
+				response.sendRedirect(path+"/member/login.do");
 			}
 			else{
 			Calendar cal = new GregorianCalendar(Locale.KOREA);

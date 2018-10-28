@@ -21,10 +21,11 @@ public class TicketcheckController extends HttpServlet {
 
 		HttpSession session = request.getSession();
 		String mid = (String) session.getAttribute("mid");
+		 String path = request.getContextPath();
 		
 		if(mid == null){
-			session.setAttribute("returnURL","/HRT_Proj/ticket/ticketcheck.do");
-			response.sendRedirect("/HRT_Proj/member/login.do");
+			session.setAttribute("returnURL",path+"/ticket/ticketcheck.do");
+			response.sendRedirect(path+"/member/login.do");
 		}else{
 		String _pg=request.getParameter("pg");
 		int pg;

@@ -13,8 +13,8 @@ public class noticeController extends HttpServlet {
        
 	protected void doDispatcher(HttpServletRequest request, 
 					HttpServletResponse response) throws ServletException, IOException {
-		
-		request.getRequestDispatcher("/notice/notice.jsp").forward(request, response);
+		 String path = request.getContextPath();
+		request.getRequestDispatcher(path+"/notice.jsp").forward(request, response);
 		
 	
 	}

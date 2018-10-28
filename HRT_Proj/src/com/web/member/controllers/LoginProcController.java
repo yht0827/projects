@@ -31,12 +31,13 @@ public class LoginProcController extends HttpServlet {
 		System.out.println("pwd= "+pwd);
 		MemberDAO dao= new MemberDAO();
 		 Member m= dao.getMid(mid);
+		 String path = request.getContextPath();
 		if(m==null){
 			System.out.println("아이디가 오류");
-			response.sendRedirect("/HRT_Proj/member/login.do?error=IDx");
+			response.sendRedirect(path+"/member/login.do?error=IDx");
 		}else if(!m.getPwd().equals(pwd)){
 			System.out.println("비번 오류");
-			response.sendRedirect("/HRT_Proj/member/login.do?error=PWDx");
+			response.sendRedirect(path+"/member/login.do?error=PWDx");
 		}else{
 			System.out.println("로그인 성공");
 			HttpSession session = request.getSession();
@@ -67,7 +68,7 @@ public class LoginProcController extends HttpServlet {
 						response.addCookie(ckmid);
 						System.out.println("mid 쿠키삭제");
 					}
-					response.sendRedirect("/HRT_Proj/index.do");
+					response.sendRedirect(path+"/index.do");
 			}
 		}
 	}

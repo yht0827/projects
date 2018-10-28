@@ -25,7 +25,7 @@ function del_bt(){
 	var pwd = $('#inputPW').val();	
 	
 	$.ajax({
-		url : '/HRT_Proj/member/CheckPwd.do',
+		url : './CheckPwd.do',
 		type : 'POST',
         data : {
             'pwd':pwd

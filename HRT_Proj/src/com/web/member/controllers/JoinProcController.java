@@ -41,6 +41,7 @@ public class JoinProcController extends HttpServlet {
 		Member m = new Member();
 		MemberDAO dao = new MemberDAO();
 		
+		
 		m.setMid(mid);
 		m.setPwd(pwd);
 		m.setName(name);
@@ -52,7 +53,8 @@ public class JoinProcController extends HttpServlet {
 		int cr = dao.addMember(m);
 		if(cr == 1){
 			System.out.println("계정 등록 성공!!");
-			response.sendRedirect("/HRT_Proj/member/Joinok.do");
+			String path = request.getContextPath();
+			response.sendRedirect(path+"/member/Joinok.do");
 		}
 	}
 }

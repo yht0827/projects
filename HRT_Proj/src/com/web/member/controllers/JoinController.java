@@ -18,7 +18,9 @@ public class JoinController extends HttpServlet{
 	public void doDispacther(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		if(request.getSession().getAttribute("mid")!=null){//로그인 시 못들어오게
-			response.sendRedirect("/HRT_Proj/index.do");
+			
+			String path = request.getContextPath();
+			response.sendRedirect(path+"/index.do");
 		}
 		else{
 		Calendar cal = new GregorianCalendar(Locale.KOREA);
