@@ -12,7 +12,7 @@
 <!-- header -->
 <jsp:include page="/header.jsp"></jsp:include>
 <!-- main -->
-<div class="container-fluid" style="height: 1000px;">
+<div class="container-fluid" style="height: 950px;">
 <div class="index_img">
 <div id="carousel-generic" class="wp_down img-responsive carousel slide col-sm-3 col-sm-offset-3">
             <ol class="carousel-indicators">
