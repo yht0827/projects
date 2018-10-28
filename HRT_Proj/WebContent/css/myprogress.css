@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+/* Form Progress */
+.myprogress {
+  margin: 20px auto;
+  text-align: center;
+}
+.myprogress .circle,
+.myprogress .bar {
+  display: inline-block;
+  background: #fff;
+  width: 40px; height: 40px;
+  border-radius: 40px;
+  border: 1px solid #d5d5da;
+}
+.myprogress .bar {
+  position: relative;
+  width: 80px;
+  height: 6px;
+  top: -33px;
+  margin-left: -5px;
+  margin-right: -5px;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+.myprogress .circle .label {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 32px;
+  margin-top: 3px;
+  color: #b5b5ba;
+  font-size: 17px;
+}
+.myprogress .circle .title {
+  color: #b5b5ba;
+  font-size: 13px;
+  line-height: 30px;
+  margin-left: -5px;
+}
+/* Done / Active */
+.myprogress .bar.done,
+.myprogress .circle.done {
+  background: wheat;
+}
+.myprogress .bar.active {
+  background: linear-gradient(to right, #EEE 40%, #FFF 60%);
+}
+.myprogress .circle.done .label {
+  color: #FFF;
+  background: #8bc435;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.myprogress .circle.done .title {
+  color: #444;
+}
+.myprogress .circle.active .label {
+  color: #FFF;
+  background: #0c95be;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.myprogress .circle.active .title {
+  color: #0c95be;
+}

@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+.index_img{
+	height:370px;
+	padding-left: 50px;
+	margin-bottom: 50px;
+}
+#carousel-generic{
+	width:610px;
+}
+.index_img .col-sm-3{
+	padding: 0;
+}
+.notice{
+	height:400px;
+}
+.notice .banner1 .img{
+	width:80px;	
+}
+
+.notice .col-md-offset-1{
+	margin-left: 70px;
+}
+
+.fst{
+	    margin-top: 0;
+}
+.article-new{
+	margin-top:20px;
+	height:180px;
+}
+
+.article-new .col-xs-12{
+	width: 400px;
+	margin-top: 10px;
+}
+
+#more{
+    display: block;
+    width: 100px;
+    height: 18px;
+    margin-bottom: 10px;
+    font-size: 0;
+    line-height: 0;
+    background: url(/HRT_Proj/img/ic_more.png) no-repeat center center;
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+}
+
+.last {
+	padding-left: 10px;
+}
+
+.last li:not(.fst) {
+		margin-top: 3px;	
+}
+
+.last li a{
+	font-family: "Nanum Gothic", sans-serif;
+	color: black;
+	padding: 0;
+}
+
+.last li a:hover{
+	text-decoration:none;
+	color:#ff225b;
+}
+
+em{
+    font-style: normal;
+    font-size: 13px;
+    line-height: 13px;
+    color: #888;
+    margin: 0px;
+    padding: 0px;
+    top: 2px;
+}
+
+.events{
+	margin-top:20px;
+	height:180px;
+}
+
+.ic_1{
+	background-image: url(/HRT_Proj/img/ic_partner_01.png);
+	background-repeat: no-repeat;
+}
+
+.ic_2{
+	background-image: url(/HRT_Proj/img/ic_partner_02.png);
+	background-repeat: no-repeat;
+}
+
+.ic_3{
+	background-image: url(/HRT_Proj/img/ic_partner_05.png);
+	background-repeat: no-repeat;
+}
+
+.ic_4{
+	background-image: url(/HRT_Proj/img/ic_partner_06.png);
+	background-repeat: no-repeat;
+}
+.ic_5{
+	background-image: url(/HRT_Proj/img/txt_cs_center.png);
+	background-repeat: no-repeat;
+}
+.quick{
+		padding: 0;
+	 list-style: none;
+}
+
+.quick li a {
+	display: block;
+    height: 15px;
+    padding-top: 100px;
+    line-height: 15px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.quick li a:hover{
+	text-decoration:none;
+	color:#ff225b;
+}
+
+#icon{
+	padding-left: 70px;
+}
+
+#icon .col-xs-2{
+    width: 130px;
+}
+
+#icon .col-xs-4{
+	padding-left: 40px;
+    width: 400px;
+}

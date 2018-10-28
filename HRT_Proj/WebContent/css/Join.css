@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+.page-header h1{
+	
+	text-align: center;
+	
+}
+
+.gender_input{
+text-align: center; margin: 0 auto;
+}
+#gender_bt .active{
+	
+	background-color: #C5E99B;
+    border-color: #C5E99B;
+	color:#30A9DE;
+}
+
+.birth_input{
+	text-align: center; margin: 0 auto;
+}
+
+#year,#month,#day{
+	display: inline;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn span.fa {
+	opacity: 0;
+}
+.btn.active span.fa {
+	opacity: 1;
+}

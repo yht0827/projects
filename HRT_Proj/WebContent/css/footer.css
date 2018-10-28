@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+footer{
+	position:relative;
+   left:0px;
+   bottom:0px;
+   width:100%;
+    background: rebeccapurple  no-repeat center bottom fixed;
+}
+
+footer dl dt{
+	float: left;
+    width: 200px;
+    height: 60px;
+    padding-top: 11px;
+}
+
+footer dl dd ul li{
+	float: left;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 15px;
+    background: url(/HRT_Proj/img/bg_footer_menu_bar.png) no-repeat left center;
+}
+
+.footer_info{
+	color: white;
+	list-style: none;
+}
+

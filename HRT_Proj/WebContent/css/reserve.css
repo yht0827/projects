@@ -1,0 +1,302 @@
+@CHARSET "UTF-8";
+
+@media screen and (min-width: 768px){ 
+	#jumbo{
+	padding-right: 60px;
+    padding-left: 280px;
+}
+}
+
+@media screen and (max-width: 969px){ 
+	.pagination{
+	    width: 230px;
+	}
+}
+
+.title_tab th{
+	text-align: center;
+}
+
+#seat_tbody tr td{
+	text-align: center;
+	vertical-align: inherit;
+}
+
+#re_title{
+	color: rebeccapurple;
+}
+
+#source{
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+#des{
+	margin-left: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#sorc_marker{
+	margin-left: 0px;
+    margin-right: 20px;
+    padding-left: 1px;
+}
+
+#des_marker{
+    padding-right: 0px;
+    padding-left: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#date_sel{
+	 margin-top: 20px;
+	 padding-left: 0px;
+	 padding-right: 0px;	
+}
+
+#time_sel{
+ margin-top: 20px;
+ padding-left: 0px;
+ padding-right: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+}
+
+#ch_mark{
+	width: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: -10px;
+	margin-right: 0px;
+}
+
+.si{
+	margin-top: 22px; 
+}
+
+.si h3{
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+
+.btn_1 {
+	width: 60%;
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+.btn-red-outline {
+	border: 2px solid #f25454;
+	color: #f25454;
+}
+.btn-red-outline:hover, .btn-red-outline:focus{
+	color:white;
+	background-color: #f26d6d;
+	border-color: #f26d6d;
+}
+
+.btn-pink-outline {
+	border: 2px solid #F3969A;
+	color: #F3969A;
+}
+.btn-pink-outline:hover, .btn-pink-outline:focus{
+	color:white;
+	background-color: #ef7479;
+	border-color: #ee686e;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.modal-dialog {
+	margin: 10px auto;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.map li >a{
+	
+	position: absolute;
+    display: block;
+    line-height: 0;
+    font-size: 0px;
+    color: white;
+}
+
+.map01{
+    top: 135px;
+    left: 150px;
+    width: 57px;
+    height: 22px;
+}
+
+.map02{
+    width: 52px;
+    height: 18px;
+    left: 131px;
+    top: 176px;
+}
+
+.map03{
+    width: 48px;
+    height: 18px;
+    left: 130px;
+    top: 207px;
+}
+
+.map04{
+	width: 48px;
+    height: 18px;
+    left: 168px;
+    top: 280px;
+}
+.map05{
+	width: 60px;
+    height: 28px;
+    left: 165px;
+    top: 320px;
+}
+.map08{
+	width: 75px;
+    height: 19px;
+    left: 108px;
+    top: 463px;
+}
+.map09{
+    width: 60px;
+    height: 23px;
+	left: 60px;
+    top: 520px;
+}
+.map06{
+	width: 56px;
+    height: 32px;
+    left: 300px;
+    top: 370px;
+}
+.map07{
+	width: 58px;
+    height: 22px;
+    left: 320px;
+    top: 468px;
+}
+
+mk{
+	display: block;
+    width: 28px;
+    height: 37px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+}
+mk.arv {background-image:url(/HRT_Proj/img/ic_start.png);}
+mk.dpt {background-image:url(/HRT_Proj/img/ic_end.png);}
+
+.map01 mk{    
+	left: -3px;
+    top: -23px;
+}
+.map02 mk{    
+    left: 9px;
+    top: -25px;
+}
+.map03 mk{   
+	left: 9px;
+	top:-25px;
+}
+.map04 mk{  
+	left: 9px;
+	top:-23px;
+}
+.map05 mk{  
+	left: 9px;
+	top:-23px;
+}
+.map06 mk{
+	left: 9px;
+	top:-8px;
+}
+.map07 mk{   
+	left:33px;
+	top:-23px;
+}
+.map08 mk{
+	left: 9px;
+	top:-26px;
+}
+.map09 mk{ 
+	left: 7px;
+	top:-24px;
+}
+#loading {
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	_position:absolute; 
+	top: 0px;
+	width: 100%;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity : 0.8;
+	}
+.loading {
+	background-color: white;
+	z-index: 118;
+	}
+#loading_img{
+	position:absolute; 
+	top:70%;
+	left:47%;
+	z-index: 2000;
+	width: 110px;
+	  	height: 110px;
+	}
+	
+.seat_set{
+	float: left;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 11px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.seat_set > a{
+	display: block;
+    width: 35px;
+    height: 44px;
+    padding: 14px 5px 0 0;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-image: url(/HRT_Proj/img/ic_seat.png);
+}
+.seat_set > span{
+	display: block;
+    width: 35px;
+    color: #fff;
+    height: 44px;
+    padding: 14px 5px 0 0;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-image: url(/HRT_Proj/img/ic_seat_off.png);
+}
+
+.seat_set > a:hover{
+ text-decoration: none;	
+}

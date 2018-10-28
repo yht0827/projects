@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+#pwd-container{
+	background-color: #fff;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.Login > div {
+	height: 35px;
+}

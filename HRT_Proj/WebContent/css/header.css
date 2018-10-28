@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* {
+	font-family: 'Hanna', serif;
+}
+
+.header .row{
+	    background-color: rebeccapurple;
+}
+.row div {
+	padding: 20px;
+}
+
+nav {background-color:rebeccapurple;}
+
+.row div .top_menu li{
+	list-style: none;
+	float: left;
+	padding: 6px 0;
+    padding-left: 15px;
+    font-size: 15px;
+    line-height: 12px;
+    vertical-align: middle;
+	}
+.row div .top_menu li a{
+	color: white;
+    text-decoration: none;
+    background-color: transparent;
+}	
+
+.navbar-nav>li>a{
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:20px;
+	margin-right:20px;
+    font-size: 23px;
+    color:white;
+}
+
+.navbar-fixed-top .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	color:black;
+	background-color: transparent;
+}
+	
