@@ -42,7 +42,7 @@
     margin-bottom: 10px;
     font-size: 0;
     line-height: 0;
-    background: url(/HRT_Proj/img/ic_more.png) no-repeat center center;
+    background: url(../img/ic_more.png) no-repeat center center;
     /* position: absolute; */
     right: 0;
     top: 0;
@@ -83,26 +83,26 @@ em{
 }
 
 .ic_1{
-	background-image: url(/HRT_Proj/img/ic_partner_01.png);
+	background-image: url(../img/ic_partner_01.png);
 	background-repeat: no-repeat;
 }
 
 .ic_2{
-	background-image: url(/HRT_Proj/img/ic_partner_02.png);
+	background-image: url(../img/ic_partner_02.png);
 	background-repeat: no-repeat;
 }
 
 .ic_3{
-	background-image: url(/HRT_Proj/img/ic_partner_05.png);
+	background-image: url(../img/ic_partner_05.png);
 	background-repeat: no-repeat;
 }
 
 .ic_4{
-	background-image: url(/HRT_Proj/img/ic_partner_06.png);
+	background-image: url(../img/ic_partner_06.png);
 	background-repeat: no-repeat;
 }
 .ic_5{
-	background-image: url(/HRT_Proj/img/txt_cs_center.png);
+	background-image: url(../img/txt_cs_center.png);
 	background-repeat: no-repeat;
 }
 .quick{

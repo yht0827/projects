@@ -203,8 +203,8 @@ mk{
     background-position: center center;
     position: absolute;
 }
-mk.arv {background-image:url(/HRT_Proj/img/ic_start.png);}
-mk.dpt {background-image:url(/HRT_Proj/img/ic_end.png);}
+mk.arv {background-image:url(../img/ic_start.png);}
+mk.dpt {background-image:url(../img/ic_end.png);}
 
 .map01 mk{    
 	left: -3px;
@@ -283,7 +283,7 @@ mk.dpt {background-image:url(/HRT_Proj/img/ic_end.png);}
     text-align: right;
     background-repeat: no-repeat;
     background-position: center center;
-	background-image: url(/HRT_Proj/img/ic_seat.png);
+	background-image: url(../img/ic_seat.png);
 }
 .seat_set > span{
 	display: block;
@@ -294,7 +294,7 @@ mk.dpt {background-image:url(/HRT_Proj/img/ic_end.png);}
     text-align: right;
     background-repeat: no-repeat;
     background-position: center center;
-	background-image: url(/HRT_Proj/img/ic_seat_off.png);
+	background-image: url(../img/ic_seat_off.png);
 }
 
 .seat_set > a:hover{

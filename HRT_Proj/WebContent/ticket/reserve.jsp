@@ -8,7 +8,7 @@
 </head>
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="${pageContext.request.contextPath }/css/reserve.css?ver=59" rel="stylesheet"></link>
+<link href="${pageContext.request.contextPath }/css/reserve.css?ver=61" rel="stylesheet"></link>
 <link href="${pageContext.request.contextPath }/css/myprogress.css?ver=1" rel="stylesheet"></link>
 <link rel="stylesheet" href="${pageContext.request.contextPath }/css/bootstrap-material-datetimepicker.css?ver=6">
 <body>

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>HR - HeeTae Railways</title>
-<link href="./css/index.css?ver=2" rel="stylesheet">
+<link href="./css/index.css?ver=4" rel="stylesheet">
 </head>
 <body>
 <!-- header -->

@@ -20,7 +20,7 @@ footer dl dd ul li{
     padding: 0 10px;
     font-size: 14px;
     line-height: 15px;
-    background: url(/HRT_Proj/img/bg_footer_menu_bar.png) no-repeat left center;
+    background: url(../img/bg_footer_menu_bar.png) no-repeat left center;
 }
 
 .footer_info{
