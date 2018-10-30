@@ -10,9 +10,9 @@ import com.web.vo.Member;
 public class MemberDAO {
 	
 	String driver = "oracle.jdbc.driver.OracleDriver";
-	String url="jdbc:oracle:thin:@aws-yht0827.cyrx1gmukuuo.ap-northeast-2.rds.amazonaws.com:1521:ORCL";
-	String user="HRT";
-	String pwd="1234";
+	String url="";
+	String user="";
+	String pwd="";
 	
 	public Connection getConn() {
 		Connection con = null;
