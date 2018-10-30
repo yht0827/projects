@@ -16,9 +16,9 @@ import com.web.vo.startend;
 public class SearchDAO {
 
 	String driver = "oracle.jdbc.driver.OracleDriver";
-	String url="jdbc:oracle:thin:@aws-yht0827.cyrx1gmukuuo.ap-northeast-2.rds.amazonaws.com:1521:ORCL";
-	String user="HRT";
-	String pwd="1234";
+	String url="";
+	String user="";
+	String pwd="";
 	
 	public Connection getConn() {
 		Connection con = null;
@@ -218,7 +218,7 @@ public class SearchDAO {
 		}
 	}
 	
-	// °Ô½Ã±Û ÀüÃ¼ Á¶È¸
+	// ê²Œì‹œê¸€ ì „ì²´ ì¡°íšŒ
 	public List<reserve> getreserve(String mid,int pg){
 		Connection con = null;
 		PreparedStatement ps=null;
@@ -237,7 +237,7 @@ public class SearchDAO {
 
 			list= new ArrayList<reserve>();
 			while(rs.next()){
-				reserve r = new reserve();   // °´Ã¼ÀÇ »ı¼º À§Ä¡ ¸Å¿ì Áß¿ä
+				reserve r = new reserve();   // ê°ì²´ì˜ ìƒì„± ìœ„ì¹˜ ë§¤ìš° ì¤‘ìš”
 				r.setDate(rs.getString("START_DATE"));
 				r.setTrainnum(rs.getString("TRAIN_NAME"));
 				r.setSeatnum(rs.getString("SEAT_NUM"));
@@ -250,7 +250,7 @@ public class SearchDAO {
 				list.add(r);
 			}
 		} catch (SQLException e) {
-			System.out.println("È¸¿ø ¸ñ·Ï Á¶È¸Áß ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.");
+			System.out.println("íšŒì› ëª©ë¡ ì¡°íšŒì¤‘ ì˜¤ë¥˜ê°€ ë°œìƒí•˜ì˜€ìŠµë‹ˆë‹¤.");
 			e.printStackTrace();
 		} finally {
 			try {
@@ -259,7 +259,7 @@ public class SearchDAO {
 				con.close();
 
 			} catch (SQLException e) {
-				System.out.println("Á¢¼ÓÇØÁ¦¿¡ ½ÇÆĞÇÏ¿´½À´Ï´Ù.");
+				System.out.println("ì ‘ì†í•´ì œì— ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤.");
 				e.printStackTrace();
 			}  
 		}
@@ -283,7 +283,7 @@ public class SearchDAO {
 				count = rs.getInt("CNT");
 			}
 		} catch (SQLException e) {
-			System.out.println("È¸¿ø Á¤º¸ Á¶È¸Áß ¿À·ù°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.");
+			System.out.println("íšŒì› ì •ë³´ ì¡°íšŒì¤‘ ì˜¤ë¥˜ê°€ ë°œìƒí•˜ì˜€ìŠµë‹ˆë‹¤.");
 			e.printStackTrace();
 		} finally {
 			try {
@@ -292,7 +292,7 @@ public class SearchDAO {
 				con.close();
 
 			} catch (SQLException e) {
-				System.out.println("Á¢¼ÓÇØÁ¦¿¡ ½ÇÆĞÇÏ¿´½À´Ï´Ù.");
+				System.out.println("ì ‘ì†í•´ì œì— ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤.");
 				e.printStackTrace();
 			}  
 		}
@@ -316,14 +316,14 @@ public class SearchDAO {
 			count = ps.executeUpdate();
 			System.out.println("count : "+count);
 		} catch (SQLException e) {
-			System.out.println("°Ô½Ã±Û Á¤º¸ »èÁ¦Áß ¿À·ù ¹ß»ı");
+			System.out.println("ê²Œì‹œê¸€ ì •ë³´ ì‚­ì œì¤‘ ì˜¤ë¥˜ ë°œìƒ");
 			e.printStackTrace();
 		} finally{
 			try {
 				ps.close();
 				con.close();
 			} catch (SQLException e) {
-				System.out.println("Á¢¼Ó ÇØÁ¦Áß ¿À·ù ¹ß»ı");
+				System.out.println("ì ‘ì† í•´ì œì¤‘ ì˜¤ë¥˜ ë°œìƒ");
 				e.printStackTrace();
 			}
 		}
