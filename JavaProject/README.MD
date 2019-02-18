@@ -6,7 +6,9 @@
  - 추후에 ERP시스템과 프로젝트 연계 가능
 
 ## 프로젝트 수행 일정
-(https://user-images.githubusercontent.com/35368554/52938647-88d82d80-33a5-11e9-853c-4915dafa8636.PNG)
+<div>
+<img width="400" src="https://user-images.githubusercontent.com/35368554/52938647-88d82d80-33a5-11e9-853c-4915dafa8636.PNG">
+ </div>
 ## 프로젝트 구성도
 
 
