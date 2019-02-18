@@ -2,9 +2,12 @@
 
 ## 버전
 
-### version1
-### version2
-### version3
+### version1 (Spring MVC)
+
+### version2 (Spring Boot)
+
+### version3 (JPA 이용)
+
 
 
 
