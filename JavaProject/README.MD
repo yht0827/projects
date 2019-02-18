@@ -19,24 +19,29 @@
 
 ## 화면 설계
 
-- 로그인 창
-    <div>
-  <img width="400" src="https://user-images.githubusercontent.com/35368554/52938648-88d82d80-33a5-11e9-8f7d-4fb9aacee4c1.PNG">
+### 로그인 창
+   
+   <div>
+  <img width="500" src="https://user-images.githubusercontent.com/35368554/52938648-88d82d80-33a5-11e9-8f7d-4fb9aacee4c1.PNG">
    </div>
-
-- 메인 화면
-      <div>
-  <img width="400" src="https://user-images.githubusercontent.com/35368554/52938650-8970c400-33a5-11e9-93e6-3f5e337d5229.PNG">
-   </div>
+   
+### 메인 화면
+    
+  <div>
+  <img width="500" src="https://user-images.githubusercontent.com/35368554/52938650-8970c400-33a5-11e9-93e6-3f5e337d5229.PNG">
+  </div>
  
-- 테이블 화면
+### 테이블 화면
 
+ <div>
+  <img width="500" src="https://user-images.githubusercontent.com/35368554/52938651-8970c400-33a5-11e9-8996-0d62e04a509f.PNG">
+  </div>
 
-- 매출 화면
+### 매출 화면
 
-
-
-
+  <div>
+  <img width="500" src="https://user-images.githubusercontent.com/35368554/52938652-8970c400-33a5-11e9-96a1-0151e434c8fa.PNG">
+  </div>
 
 ## 기능
 - [x] 로그인 / 종료
