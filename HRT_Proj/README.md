@@ -14,3 +14,5 @@
 Front :HTML + Css(Bootstrap) + JavaScript(Jquery)
 
 Back : JAVA + JSP + Oracle DB
+
+Restful
