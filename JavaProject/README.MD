@@ -1,28 +1,36 @@
 # Project
 > JAVA SWING을 이용한 (POS 시스템 제작 ~ 2018.09.13)
+
+## 주제 선정 이유
+ - 일상에서 흔하게 볼 수 있는 프로그램
+ - 추후에 ERP시스템과 프로젝트 연계 가능
+ 
+## 프로젝트 구성도
+
+
 ## 화면 설계
 
-## 기능
-- [x] 할 일 추가
-- [x] 할 일 삭제
-- [x] 할 일 완료
-- [x] 필터링 구현
-    - [x] 모든 할 일 보여주기(All)
-    - [x] 해야하는 할 일 보여주기(active)
-    - [x] 완료한 일 보여주기(completed)
-- [x] 해시태그에 따른 필터링
-- [x] localstorage에 배열 저장하기
 
+## 기능
+- [x] 로그인 / 종료
+- [x] 테이블 별 주문
+- [x] 테이블 별 계산
+- [x] 일일 매출 확인
+- [x] 테이블 별 메뉴 
+    - [x] 메뉴 선택
+    - [x] 메뉴 취소
+    
 ## 기술적 목표
-- 다양한 자바스크립트 패턴 적용 및 정리
+    - 실제 POS시스템 기능을 구현하고 JAVA의 전반적으로 이해 
     - Module 패턴
     - 감시자 패턴
     - 데코레이터 패턴
 
 ## 도구
 - Eclipse Mars.2
-- Window Builder
+    - Window Builder
 - Adobe Photoshop
 
-## 구현 영상
-- [POS 시스템](https://www.youtube.com/watch?v=AEOrSamECMQ)
+## 구현 영상 및 Prezi
+- [Prezi](https://prezi.com/t04k1qa4m3nf/presentation/)
+- [영상](https://www.youtube.com/watch?v=AEOrSamECMQ)
