@@ -24,5 +24,5 @@
 - Window Builder
 - Adobe Photoshop
 
-## 실제 실현 영상
-- [링크](https://www.youtube.com/watch?v=AEOrSamECMQ)
+## 구현 영상
+- [POS 시스템](https://www.youtube.com/watch?v=AEOrSamECMQ)
