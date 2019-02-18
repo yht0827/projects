@@ -21,12 +21,12 @@
 
 - 로그인 창
     <div>
-  <img width="1000" src="https://user-images.githubusercontent.com/35368554/52938648-88d82d80-33a5-11e9-8f7d-4fb9aacee4c1.PNG">
+  <img width="400" src="https://user-images.githubusercontent.com/35368554/52938648-88d82d80-33a5-11e9-8f7d-4fb9aacee4c1.PNG">
    </div>
 
 - 메인 화면
       <div>
-  <img width="1000" src="https://user-images.githubusercontent.com/35368554/52938650-8970c400-33a5-11e9-93e6-3f5e337d5229.PNG">
+  <img width="400" src="https://user-images.githubusercontent.com/35368554/52938650-8970c400-33a5-11e9-93e6-3f5e337d5229.PNG">
    </div>
  
 - 테이블 화면
