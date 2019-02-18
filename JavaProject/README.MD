@@ -6,15 +6,36 @@
  - 추후에 ERP시스템과 프로젝트 연계 가능
 
 ## 프로젝트 수행 일정
+<html>
 <div>
 <img width="1000" src="https://user-images.githubusercontent.com/35368554/52938653-8a095a80-33a5-11e9-8670-8755b3e3137c.PNG">
  </div>
+ </html>
+ 
 ## 프로젝트 구성도
 <div>
 <img width="1000" src="https://user-images.githubusercontent.com/35368554/52938647-88d82d80-33a5-11e9-853c-4915dafa8636.PNG">
  </div>
 
 ## 화면 설계
+
+- 로그인 창
+    <div>
+  <img width="1000" src="https://user-images.githubusercontent.com/35368554/52938648-88d82d80-33a5-11e9-8f7d-4fb9aacee4c1.PNG">
+   </div>
+
+- 메인 화면
+      <div>
+  <img width="1000" src="https://user-images.githubusercontent.com/35368554/52938650-8970c400-33a5-11e9-93e6-3f5e337d5229.PNG">
+   </div>
+ 
+- 테이블 화면
+
+
+- 매출 화면
+
+
+
 
 
 ## 기능
